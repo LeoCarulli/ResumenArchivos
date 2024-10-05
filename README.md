@@ -1,7 +1,5 @@
 # Resumen de Archivos
 
-# Resumen de Archivos con Python
-
 Este repo está pensado para automatizar la creación de resúmenes de archivos **PDF**, **Word** y **TXT** usando **Python**. La idea es que sea bien sencillo de entender, incluso si recién estás arrancando. Hay un **Jupyter Notebook** que explica paso a paso el proceso de generar un resumen de un PDF (para los que quieren entender el detalle), y después tenés los scripts en Python para usar en producción.
 
 ## Contenido
