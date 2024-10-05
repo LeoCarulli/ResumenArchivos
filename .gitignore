@@ -9,7 +9,9 @@ env/
 
 # Archivos compilados de Python
 *.pyc
+__pycache__
 __pycache__/
+
 
 # Configuraciones de IDE
 .vscode/
