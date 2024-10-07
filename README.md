@@ -12,13 +12,13 @@ Incluye un **Jupyter Notebook** que explica paso a paso el proceso de generar re
 
 ## Requisitos
 
-1. **Instalá Python** desde [este enlace](https://www.python.org/downloads/).
+1. **Instalá Python** desde [Python](https://www.python.org/downloads/).
 
-2. **Instalá Visual Studio Code** desde [este enlace](https://code.visualstudio.com/download) o cualquier editor de código de tu preferencia. Recomiendo Visual Studio Code por su facilidad de uso y funcionalidades.
+2. **Instalá Visual Studio Code** desde [VSC](https://code.visualstudio.com/download) o cualquier editor de código de tu preferencia. Recomiendo Visual Studio Code por su facilidad de uso y funcionalidades.
 
-3. **Descargá e instalá Ollama** desde [este enlace](https://ollama.com/) y el modelo de lenguaje natural que prefieras desde [este enlace](https://ollama.com/library).
+3. **Descargá e instalá Ollama** desde [Ollama](https://ollama.com/) y el modelo de lenguaje natural que prefieras desde [Library](https://ollama.com/library).
 
-En nuestro código, tenemos seteado por default el modelo **phi3.5**, el cual podes descargar aquí: [este enlace](https://ollama.com/library/phi3.5)
+En nuestro código, tenemos seteado por default el modelo **phi3.5**, el cual podes descargar aquí: [Phi3.5](https://ollama.com/library/phi3.5)
 
 Requisitos para Ejecutar el Modelo phi3.5 de Ollama
 
