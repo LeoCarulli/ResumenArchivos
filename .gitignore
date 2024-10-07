@@ -3,6 +3,7 @@ venv/
 .venv/
 env/
 .env/
+myenv/
 
 # Archivos de configuración de entorno
 .env
