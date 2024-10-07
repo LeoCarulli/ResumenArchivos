@@ -1,5 +1,9 @@
 # Resumen de Archivos
-Este repo está pensado para automatizar la creación de resúmenes de archivos **PDF** usando **Python**. La idea es que sea bien sencillo de entender, incluso si recién estás arrancando. Hay un **Jupyter Notebook** que explica paso a paso el proceso de generar un resumen de un PDF (para los que quieren entender el detalle), y después tenés el script en Python para usar en producción.
+Este repo está pensado para automatizar la creación de resúmenes de archivos **PDF** usando **Python**. 
+
+La idea es que sea bien sencillo de entender, incluso si recién estás arrancando. 
+
+Hay un **Jupyter Notebook** que explica paso a paso el proceso de generar un resumen de un PDF (para los que quieren entender el detalle), y después tenés el script en Python para usar en producción.
 
 ## Contenido
 
@@ -10,12 +14,18 @@ Este repo está pensado para automatizar la creación de resúmenes de archivos 
 
 ## Requisitos
 
-
 1. **Instalá Python** desde [este enlace](https://www.python.org/downloads/).
 
 2. **Instalá Visual Studio Code** desde [este enlace](https://code.visualstudio.com/download) o cualquier editor de código de tu preferencia. Recomiendo Visual Studio Code por su facilidad de uso y funcionalidades.
 
 Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para poder correrlo.
+
+Para el archivo **PDFunificado.py**, también es necesario instalar las librerías correspondientes. En este caso, se puede hacer a través de:
+
+```bash
+pip install pdfplumber
+```
+Sin embargo, es una buena práctica en este tipo de proyectos, crear un entorno virtual con todas las dependencias necesarias para evitar problemas de incompatibilidad entre versiones. Te dejo un ejemplo de cómo crear el entorno virtual, activarlo e instalar las dependencias necesarias:
 
 3. **Creá un entorno virtual** con el siguiente comando:
 
@@ -39,6 +49,9 @@ Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para
   ```
 
 
+ En este caso, en el archivo llamado `requirements.txt`, esas dependencias están presentes. (En este ejemplo, solo la librería "pdfplumber")
+
+
 
 ## Cómo usar cada archivo
 
@@ -48,7 +61,7 @@ Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para
   - Este notebook es para entender el proceso, pero no es ideal para uso en producción.
 
 - **PDFunificado.py (Resúmenes para PDF)**
-  - Si querés resumir un PDF rápidamente, usá este comando en la terminal:
+  - Si querés resumir un PDF rápidamente, usá este comando en la terminal (siempre estando sobre la carpeta donde está el archivo a ejecutar):
     ```bash
     python PDFunificado.py
     ```
