@@ -18,9 +18,9 @@ Hay un **Jupyter Notebook** que explica paso a paso el proceso de generar un res
 
 2. **Instalá Visual Studio Code** desde [este enlace](https://code.visualstudio.com/download) o cualquier editor de código de tu preferencia. Recomiendo Visual Studio Code por su facilidad de uso y funcionalidades.
 
-Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para poder correrlo.
+Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para poder correrlo celda a celda.
 
-Para el archivo **PDFunificado.py**, también es necesario instalar las librerías correspondientes. En este caso, se puede hacer a través de:
+Para el archivo **PDFunificado.py**, también es necesario instalar las librerías correspondientes. En este caso, se puede hacer a través del siguiente comando desde la consola:
 
 ```bash
 pip install pdfplumber
@@ -38,6 +38,10 @@ Sin embargo, es una buena práctica en este tipo de proyectos, crear un entorno 
     ```bash
     nombre_del_entorno\Scripts\activate
     ```
+    > Puede que haya un error si es la primera vez que lo haces. Se soluciona ejecutando el siguiente comando:
+    > ```bash
+    > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    > ```
   - En macOS/Linux:
     ```bash
     source nombre_del_entorno/bin/activate
