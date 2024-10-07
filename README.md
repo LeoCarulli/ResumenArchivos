@@ -12,6 +12,8 @@ Incluye un **Jupyter Notebook** que explica paso a paso el proceso de generar re
 
 ## Requisitos
 
+### Generales
+
 1. **Instalá Python** desde [Python](https://www.python.org/downloads/).
 
 2. **Instalá Visual Studio Code** desde [VSC](https://code.visualstudio.com/download) o cualquier editor de código de tu preferencia. Recomiendo Visual Studio Code por su facilidad de uso y funcionalidades.
@@ -20,12 +22,14 @@ Incluye un **Jupyter Notebook** que explica paso a paso el proceso de generar re
 
 En nuestro código, tenemos seteado por default el modelo **phi3.5**, el cual podes descargar aquí: [Phi3.5](https://ollama.com/library/phi3.5)
 
-Requisitos para Ejecutar el Modelo phi3.5 de Ollama
+### Requisitos Modelo phi3.5 de Ollama:
 
 - GPU (recomendada): NVIDIA GTX 1080 o superior, con al menos 4 GB de VRAM. 
 - RAM: 16 GB o más para un rendimiento óptimo. Sin GPU, es posible que se necesite más memoria RAM para evitar problemas de rendimiento.
 
 Nota sobre el uso sin GPU: El modelo puede ejecutarse solo con CPU, pero será más lento, especialmente para tareas complejas, y consumirá más RAM. Sin GPU, es mejor para tareas pequeñas o experimentación.
+
+### Requisitos de ejecución
 
 - Para el archivo **PDFpasoapaso.ipynb**, con esto ya debería ser suficiente para poder correrlo celda a celda.
 
