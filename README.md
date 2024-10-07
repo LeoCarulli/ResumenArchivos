@@ -1,4 +1,4 @@
-# Resumen de Archivos
+# Resumen de Archivos PDF
 Este repo está pensado para automatizar la creación de resúmenes de archivos **PDF** usando **Python** y **Ollama**. Está pensado para ser fácil de entender, incluso para quienes recién empiezan.
 
 Incluye un **Jupyter Notebook** que explica paso a paso el proceso de generar resúmenes, y un script en Python listo para producción.
@@ -66,7 +66,7 @@ Sin embargo, es una buena práctica en este tipo de proyectos, crear un entorno 
   ```
 
 
- En este caso, en el archivo llamado `requirements.txt`, esas dependencias están presentes. (En este ejemplo, solo la librería "pdfplumber")
+ En este caso, en el archivo llamado `requirements.txt`, esas dependencias están presentes. (En este ejemplo, la librería "pdfplumber" es nuestra única dependencia, y no debería haber conflictos).
 
 
 ## Cómo usar cada archivo
